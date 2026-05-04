@@ -273,7 +273,7 @@ except Exception as exc:
     sys.exit(1)
 
 # 6. Save or Display the Report
-filename = f"Theo_Chem_Report_{today}.md"
+filename = f"Report_{today}.md"
 output_path = SCRIPT_DIR / filename
 with open(output_path, "w") as file:
     file.write(daily_report)
