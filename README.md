@@ -19,7 +19,7 @@ An AI-powered automation script that aggregates RSS feeds from top chemistry jou
 1. Clone the repository:
    ```bash
    git clone https://github.com/dhirajraj13/weekely_research_report.git
-   cd weekely_research_report
+   cd weekly_research_report
    ```
 
 2. Install the required dependencies:
