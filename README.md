@@ -1,4 +1,4 @@
-# Daily Research Report Generator
+# Weekly Research Report Generator
 
 An AI-powered automation script that aggregates RSS feeds from top chemistry journals and uses the Gemini API to filter and summarize publications matching specific research interests (e.g., Non-Adiabatic Molecular Dynamics, Excited-State Methods, and AI in materials science).
 
@@ -41,7 +41,7 @@ Simply run the script:
 python daily_report.py
 ```
 
-The script will fetch the last 5 days of publications, filter them, and output a markdown file named `Theo_Chem_Report_YYYY-MM-DD.md` in the same directory.
+The script will fetch the last 7 days of publications, filter them, and output a markdown file named `Report_YYYY-MM-DD.md` in the same directory.
 
 ## Customization Tips
 To make this tool work for your specific research, you should modify two key areas in daily_report.py:
