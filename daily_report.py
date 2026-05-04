@@ -72,11 +72,11 @@ crossref_journals = {
     "JCP (AIP)": "1089-7690",
     "Annual Review of Phys Chem": "1545-1593",
 }
-# Set the date range for filtering papers. Default is the most recent 5 days.
+# Set the date range for filtering papers. Default is the most recent 7 days.
 daily_abstracts = ""
 today = datetime.today().strftime('%Y-%m-%d')
 today_date = datetime.today().date()
-lookback_days = 5
+lookback_days = 7
 cutoff_date = today_date - timedelta(days=lookback_days - 1)
 max_entries_per_source = 500
 
