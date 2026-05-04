@@ -1,4 +1,4 @@
-# Theoretical Chemistry Daily Report Generator
+# Daily Research Report Generator
 
 An AI-powered automation script that aggregates RSS feeds from top chemistry journals and uses the Gemini API to filter and summarize publications matching specific research interests (e.g., Non-Adiabatic Molecular Dynamics, Excited-State Methods, and AI in materials science).
 
@@ -12,7 +12,7 @@ An AI-powered automation script that aggregates RSS feeds from top chemistry jou
 ## Prerequisites
 
 - Python 3.8+
-- A Google Gemini API Key
+- A Google Gemini API Key ([Google AI Studio](https://aistudio.google.com/))
 
 ## Installation
 
@@ -43,6 +43,13 @@ python daily_report.py
 
 The script will fetch the last 5 days of publications, filter them, and output a markdown file named `Theo_Chem_Report_YYYY-MM-DD.md` in the same directory.
 
+## Customization Tips
+To make this tool work for your specific research, you should modify two key areas in daily_report.py:
+
+Journal Sources: Navigate to the section labeled # 2. Define Your Journal Sources (RSS Feeds). Update the dictionary with the RSS links for the specific journals you follow (e.g., JCTC, JCP, or specific arXiv categories).
+
+Research Focus: Modify the section labeled # 4. The Highly Specific Filtering Prompt. Change the research keywords and interests to match your domain (e.g., if you are moving from Excited-State Methods to Surface Chemistry).
+
 ## Future Scope & Roadmap
 
 - **v1.1.0 (Upcoming):** Automate the execution using GitHub Actions to run daily at 8:00 AM and commit the markdown report automatically.
@@ -54,4 +61,6 @@ The script will fetch the last 5 days of publications, filter them, and output a
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-## Licen
+## License
+
+MIT
