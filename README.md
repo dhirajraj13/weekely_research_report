@@ -18,12 +18,14 @@ An AI-powered automation script that aggregates RSS feeds from top chemistry jou
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/daily_report.git
-   cd daily_report
+   git clone https://github.com/dhirajraj13/weekely_research_report.git
+   cd weekely_research_report
    ```
 
 2. Install the required dependencies:
    ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
    pip install -r requirements.txt
    ```
 
@@ -52,6 +54,4 @@ The script will fetch the last 5 days of publications, filter them, and output a
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-## License
-
-MIT
+## Licen
